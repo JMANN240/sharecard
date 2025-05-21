@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+	background-color: #f8f8f8;
+	font-family: "Roboto", sans-serif;
+	word-break: break-all;
+}
+
+body {
+	margin: 0;
+	padding: 4rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	align-items: center;
+}
+
+#data-div, #link-div {
+	background-color: #ffffff;
+	width: 24rem;
+	border-radius: 0.125rem;
+	padding: 2rem;
+	-webkit-box-shadow: 0 2px 5px 2px #e0e0e0; 
+	box-shadow: 0 2px 5px 2px #e0e0e0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+input {
+	color: #202020;
+	width: 100%;
+}
+
+#name-input {
+	font-size: xx-large;
+}
+
+#position-input {
+	color: #808080;
+	font-size: large;
+}
+
+#copy-link-button {
+	background-color: #ffffff;
+	border: none;
+	border-radius: 0.25rem;
+	padding: 0.5rem 1rem;
+	-webkit-box-shadow: 0 2px 5px 2px #e0e0e0;
+	box-shadow: 0 2px 5px 2px #e0e0e0;
+	transition-duration: 0.1s;
+}
+
+#copy-link-button:hover {
+	background-color: #f8f8f8;
+}
+
+#copy-link-button:active {
+	transform: translateY(2px);
+	-webkit-box-shadow: 0 0 0 0 #e0e0e0;
+	box-shadow: 0 0 0 0 #e0e0e0;
+}
+
+h1 {
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
+	color: #808080;
+	font-weight: 400;
+}
+
+p {
+	margin: 0;
+}

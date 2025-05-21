@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sharecard</title>
+	<link rel="stylesheet" href="index.css">	
+</head>
+<body>
+	<div id="data-div">
+		<div id="name-position-div">
+			<input type="text" id="name-input">
+			<input type="text" id="position-input">
+		</div>
+		<div id="lines-div">
+			<input type="text" class="line-input" id="line1-input">
+			<input type="text" class="line-input" id="line2-input">
+			<input type="text" class="line-input" id="line3-input">
+			<input type="text" class="line-input" id="line4-input">
+		</div>
+	</div>
+	<button id="copy-link-button">Copy Link</button>
+	<div id="link-div" style="display: none;">
+		<p id="link-paragraph"></p>
+	</div>
+	<script language="javascript" src="lz-string.js"></script>
+	<script language="javascript" src="index.js"></script>
+</body>
+</html>
