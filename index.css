@@ -15,6 +15,10 @@ body {
 	align-items: center;
 }
 
+#data-div {
+	height: 12rem;
+}
+
 #data-div, #link-div {
 	background-color: #ffffff;
 	width: 24rem;
